@@ -71,5 +71,10 @@ RUN apt-get update && \
 # Expose prometheus metrics.
 EXPOSE 80
 
+ENV LD_PRELOAD=""
+
+# use UTC timezone
+ENV TZ="UTC"
+
 # Start Fluentd to pick up our config that watches Docker container logs.
 CMD ["/entrypoint.sh"]

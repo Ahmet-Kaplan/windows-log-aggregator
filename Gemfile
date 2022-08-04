@@ -40,4 +40,5 @@ gem 'fluent-plugin-kubernetes'
 gem 'fluent-plugin-timescaledb'
 gem 'fluent-plugin-mysql'
 gem 'fluent-plugin-postgres'
+gem 'fluent-plugin-sql'
 
