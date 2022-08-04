@@ -33,7 +33,7 @@ COPY Gemfile /Gemfile
 SHELL ["/bin/bash", "-e", "-o", "pipefail", "-c"]
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends g++ gcc make libc6-dev wget build-essential libpq-dev && \
+    apt-get install -y --no-install-recommends g++ gcc make libc6-dev wget build-essential libpq-dev libmysqlclient-dev  && \
     wget http://www.freetds.org/files/stable/freetds-1.3.12.tar.gz && \
     tar -xzf freetds-1.3.12.tar.gz && \
     cd freetds-1.3.12 && \
