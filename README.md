@@ -7,6 +7,7 @@ and sends them to an instance of [Elasticsearch][elasticsearch] or Granafa Loki.
 This image is designed to be used as part of the [Kubernetes][kubernetes] cluster bring up process. 
 
 DB:
+
 MS SQL (Sql Server)
 MySQL
 PostgreSQL
