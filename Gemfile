@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'activesupport', '7.0.3'
+gem 'activesupport', '7.0.7.1'
 gem 'elasticsearch-xpack', '7.13.3'
 gem 'elasticsearch', '<=7.13.3'
 gem 'elasticsearch-api', '<=7.13.3'
